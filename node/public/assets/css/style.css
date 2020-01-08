@@ -1,0 +1,55 @@
+        .bgImgLogin {
+            background-image: url(' /assets/images/bgimg.jpg');
+            /* background: red; fallback color */
+            /* background: linear-gradient( to top, rgba(204, 28, 28, 0.055), rgb(21, 18, 189),violet,indigo); */
+            background-repeat: no-repeat;
+            background-size: cover;
+            height: 100vh;
+            overflow: auto;
+        }
+
+        .navBg {
+            background-image: linear-gradient(to right, rgb(36, 47, 24), #49944c);
+        }
+
+        .scroller {
+            float: left;
+            width: 100%;
+            background: transparent;
+            overflow-y: scroll;
+            scrollbar-width: thin;
+            height: 100vh;
+        }
+
+        .force-overflow {
+            min-height: auto;
+        }
+
+        .scroller-webkit-scrollbar-track {
+            box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+            background-color: grey;
+            border-radius: 15px;
+            outline: none;
+        }
+
+        .scroller::-webkit-scrollbar {
+            width: 5px;
+            background-color: grey;
+            border-radius: 10px;
+            outline: none;
+        }
+
+        .scroller::-webkit-scrollbar-thumb {
+            background-color: #c1c1c1;
+            border: 2px solid #c1c1c1;
+            border-radius: 10px;
+        }
+        .cardMaxHeight{
+            max-height: 250px;
+            min-height: 250px;
+            
+        }
+        .card-body{
+                overflow: auto;
+        }
+       

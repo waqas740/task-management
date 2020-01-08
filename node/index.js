@@ -3,7 +3,8 @@ const express = require('express');
 const path = require('path');
 const http = require('http');
 const bodyParser = require('body-parser');
-
+//const {execSync  } = require('child_process');
+//execSync("npm run dev:migrate");
 // Get our API routes
 const appAPI = require('./routes/app.route');
 const app = express();
