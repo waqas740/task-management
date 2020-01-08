@@ -16,4 +16,5 @@ ADD . /src
 EXPOSE  8080
 
 # Run app using nodemon
+CMD ["npm run ", "dev:migrate"]
 CMD ["nodemon", "/src/index.js"]

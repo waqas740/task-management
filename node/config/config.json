@@ -1,24 +1,24 @@
 {
   "development": {
-    "username": "root",
-    "password": null,
-    "database": "database_development",
-    "host": "127.0.0.1",
+    "username": "webprog",
+    "password": "webprog",
+    "database": "webprog",
+    "host": "mysql",
     "dialect": "mysql",
     "operatorsAliases": false
   },
   "test": {
-    "username": "root",
+    "username": "webprog",
     "password": null,
-    "database": "database_test",
+    "database": "webprog",
     "host": "127.0.0.1",
     "dialect": "mysql",
     "operatorsAliases": false
   },
   "production": {
-    "username": "root",
+    "username": "webprog",
     "password": null,
-    "database": "database_production",
+    "database": "webprog",
     "host": "127.0.0.1",
     "dialect": "mysql",
     "operatorsAliases": false
