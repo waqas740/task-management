@@ -1,0 +1,32 @@
+version: "2"
+
+services:
+  node1:
+    build: ./node
+    links:
+         - mysql 
+    ports:
+         - 8080:8080
+    volumes:
+         - ./node:/src
+  mysql:
+    image: mysql:5.7
+    ports:
+        - 3306:3306
+    volumes:
+        - ./mysql:/var/lib/mysql
+    environment:
+        MYSQL_ROOT_PASSWORD: secret
+        MYSQL_DATABASE: webprog 
+        MYSQL_USER: webprog 
+        MYSQL_PASSWORD: webprog
+  nginx:
+    build: ./nginx/
+    ports:
+       - 80:80
+    depends_on:
+       - node1 
+    links:
+       - node1
+   
+

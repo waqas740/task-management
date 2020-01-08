@@ -1,0 +1,9 @@
+/node/node_modules/
+/improvement
+/bower_components/
+/mysql
+npm-debug.log
+/npm-debug.log.*
+.idea
+/logs/
+
